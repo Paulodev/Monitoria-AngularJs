@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MyApp</title>
+	<script type="text/javascript" src="angular.min.js"></script>
+
+	<script type="text/javascript">
+		var app = angular.module('myFirstApp', []);
+		app.controller('meuCtrl', function() {
+			this.texto = 'Hello';
+			this.concat = 'World!!';
+		});
+	</script>
+</head>
+<body ng-app = 'myFirstApp'>
+
+<div ng-controller=' meuCtrl as my'>
+	<h1 style="font-size: 80px"> {{my.texto + my.concat }}</h1>	
+</div>
+
+
+</body>
+</html>
