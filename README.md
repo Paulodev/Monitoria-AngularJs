@@ -1,21 +1,22 @@
 # Monitoria-AngularJs 
-Para que vc possa usufruir melhor desteconteudo siga os passos abaixo
-abra o este site https://angularjs.org/
-click em download
-antes de confirma o download verifique se a versão estavel esta em 1.4
-
 Passos
 -------
 
-1.Depois click no botão Zip
+Para que vc possa usufruir melhor desteconteudo siga os passos abaixo.
 
-2.Confirme o dowload
 
-3.Extraia o arquivo dentro da pasta app
+1. Abra o este site https://angularjs.org/click em download antes de confirma o download verifique se a versão estavel esta em 1.4.
 
-4.Renomei o a pasta angular-1.4.4 para apenas angular
 
-5.Depois é so abrir o documento de hmtl em algun Browser para testar os
+2.Depois click no botão Zip
+
+3.Confirme o dowload
+
+4.Extraia o arquivo dentro da pasta app
+
+5.Renomei o a pasta angular-1.4.4 para apenas angular
+
+6.Depois é so abrir o documento de hmtl em algun Browser para testar os
 arquivos.
 
 
