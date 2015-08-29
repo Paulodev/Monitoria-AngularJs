@@ -22,7 +22,7 @@ arquivos.
 
 Observção: Cada pasta sera uma etapa do aprendizado.
 
-ATENÇÃO: Se não estiver ao lado do botão dowload tera um link previus version
+ATENÇÃO: Se a versão ja ultrapassou a 1.4 ao lado do botão dowload tera um link previus version
 onde tera todas as versões dos arquivos angular procure pela versão e abaixe os arquivos correspondentes.
 
 Releases
