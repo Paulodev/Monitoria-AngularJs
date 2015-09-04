@@ -9,13 +9,49 @@
 		app.controller('meuCtrl', function() {
 			this.texto = 'Hello';
 			this.concat = 'World!!';
+			this.list = [
+				{
+					tarefa: 'Pegar a chave da moto'
+				},
+				{
+					tarefa: 'Dormir'
+				},
+				{
+					tarefa: 'Passar lista de Chamada'
+				},
+				{
+					tarefa: 'JOgar lixo'
+				},
+				{
+					tarefa: 'JOgar lixo'
+				},
+				{
+					tarefa: 'Passear com a Lara'
+				},
+				{
+					tarefa: 'Passear com a Lara'
+				},
+				{
+					tarefa: 'Passar lista de Chamada'
+				}
+			];
 		});
 	</script>
 </head>
 <body ng-app = 'myFirstApp'>
 
 <div ng-controller=' meuCtrl as my'>
-	<h1 style="font-size: 80px"> {{my.texto + my.concat }}</h1>	
+	<h1 style="font-size: 80px"> {{my.texto + my.concat }}</h1>
+
+	<input type="text" ng-model="Busca"></input>
+	<select ng-model="Ordem">
+		<option value="tarefa">Tarefa</option>
+		<option value="">Desordenado</option>
+	</select>
+
+	<ul ng-repeat="list in my.list | filter:Busca | orderBy: Ordem">
+		<li>{{list.tarefa}}</li>
+	</ul>
 </div>
 
 
