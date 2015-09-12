@@ -27,3 +27,16 @@ onde tera todas as versões dos arquivos angular procure pela versão e abaixe o
 
 Releases
 
+Galerinha Do Bem aqui estão alguns Links de estudo para que possam estudar um pouco mais sobre o frameWork Angular Js.
+
+Tudo Sobre AngularJs Rodrigo Branas:
+https://www.youtube.com/playlist?list=PLQCmSnNFVYnTD5p2fR4EXmtlR6jQJMbPb
+
+
+Shaping up With AngularJS
+http://campus.codeschool.com/courses/shaping-up-with-angular-js/intro
+
+Este aqui é para quem estiver mais avançado com ferramentas como Git, Node, Npm, Bower etc. pois aqui neste tututorial vc vai precisar ter conhecimento destas ferramentas para poder avançar durante as etapas.
+
+https://docs.angularjs.org/tutorial
+
