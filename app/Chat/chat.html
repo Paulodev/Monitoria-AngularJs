@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="chatApp">
+<head>
+	<title>Chat Monitoria Angular</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="angular.min.js"></script>
+	<!-- Firebase -->
+	<script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+
+	<!-- AngularFire -->
+	<script src="https://cdn.firebase.com/libs/angularfire/1.1.2/angularfire.min.js"></script>
+	<script type="text/javascript" src="chat.js"></script>
+
+
+</head>
+<body ng-controller="chatCtrl as chat">
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="jumbotron">
+					<div class="panel panel-primary">
+						<div class="panel-heading"> Chat FCV</div>
+						<div class="panel-body">
+							<input type="text" class="form-control" ng-model="message">
+							<button class="btn btn-block btn-success" ng-click="addMessage(message)">
+								Submit
+							</button>
+							
+							<ul ng-repeat="Msg in messages">
+								<li>{{Msg.message}}</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
