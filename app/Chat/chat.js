@@ -7,11 +7,14 @@
 		$scope.messages = Banco;
 		$scope.messages.$loaded();
 		$scope.message = '';
+		$scope.name = '';
 
-		$scope.addMessage = function(message) {
+		$scope.addMessage = function(message, name) {
 			$scope.messages.$add({
-				"message": message
+				"message": message,
+				"name": name
 			});
 			$scope.message = '';
 		};
+
 	});
